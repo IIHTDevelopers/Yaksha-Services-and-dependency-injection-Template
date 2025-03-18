@@ -1,0 +1,2 @@
+dataserviceBusinessShouldRetrieveUsersFromTheApiViaGet=true
+dataserviceBusinessShouldRetrievePostsFromTheApiViaGet=true
