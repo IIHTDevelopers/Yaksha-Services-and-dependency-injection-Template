@@ -15,12 +15,5 @@ export class UserPostListComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
-    this.dataService.getPosts().subscribe(data => {
-      this.posts = data;
-    });
-
-    this.dataService.getUsers().subscribe(data => {
-      this.users = data;
-    });
   }
 }
