@@ -8,15 +8,15 @@ import { Post } from '../models/post.model';
   providedIn: 'root'
 })
 export class DataService {
-  private apiUrl = 'https://jsonplaceholder.typicode.com';
+  private apiUrl = '';
 
   constructor(private http: HttpClient) { }
 
-  getUsers(): Observable<User[]> {
-    return this.http.get<User[]>(`${this.apiUrl}/users`);
+  getUsers(): Observable<any> {
+    return null;
   }
 
-  getPosts(): Observable<Post[]> {
-    return this.http.get<Post[]>(`${this.apiUrl}/posts`);
+  getPosts(): Observable<any> {
+    return null;
   }
 }
