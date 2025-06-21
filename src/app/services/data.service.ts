@@ -12,11 +12,11 @@ export class DataService {
 
   constructor(private http: HttpClient) { }
 
-  getUsers(): Observable<any> {
+  getUsers(): any {
     return null;
   }
 
-  getPosts(): Observable<any> {
+  getPosts(): any {
     return null;
   }
 }
