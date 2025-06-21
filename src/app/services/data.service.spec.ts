@@ -45,7 +45,7 @@ describe('DataService', () => {
         }
       ];
 
-      service.getUsers().subscribe(users => {
+      service.getUsers().subscribe((users: any) => {
         expect(users.length).toBe(2);
         expect(users).toEqual(dummyUsers);
       });
@@ -67,7 +67,7 @@ describe('DataService', () => {
         }
       ];
 
-      service.getPosts().subscribe(posts => {
+      service.getPosts().subscribe((posts: any) => {
         expect(posts.length).toBe(2);
         expect(posts).toEqual(dummyPosts);
       });
